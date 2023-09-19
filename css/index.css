@@ -1,0 +1,315 @@
+.banner{
+        max-width: 100%; /* Adjust the percentage as needed */
+        overflow: hidden
+}
+
+.banner img{
+   
+        width: 100%; /* Ensure the image takes the full width of its container */
+        height: auto; /* Maintain the aspect ratio */
+        display: block; /* Remove any extra spacing or alignment issues */
+        margin: 0 auto; /* Center the image horizontally if needed */
+    
+
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height of the logo as needed */
+    margin-right: 10px; /* Add margin to the right of the logo */
+    margin-left: 120px;
+}
+
+.nav-item {
+    margin: 0 15px; /* Adjust the margin to bring links closer to the logo */
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-family: Imprima;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.nav-item a:hover {
+    color: #ddd;
+}
+
+.home{
+    margin-left: 400px;
+}
+
+
+
+
+  /* Styles for the container div */
+  .container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Styles for the image */
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Styles for the top text */
+.container .top-text {
+    position: absolute;
+    top: 120px; /* Adjust the top position as needed */
+    left: 28%;
+    transform: translateX(-20%);
+    color: white;
+    text-align: center;
+    font-family: JejuGothic;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* Styles for the bottom text */
+.container .bottom-text {
+    position: absolute;
+    bottom: 432px; /* Adjust the bottom position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    font-family: Imprima;
+font-size: 30px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+/* Styles for the button */
+.container .button {
+    position: absolute;
+    bottom: 380px; /* Adjust the bottom position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4265DF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+ /* Styles for the card container */
+.card-container {
+    text-align: center;
+    background-color: #D9D9D9;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styles for the cards section */
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles for individual cards */
+.card {
+    width: 387px;
+    height: 259px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+
+    
+}
+
+
+.card-text p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Positioning for the cards */
+.card:nth-child(1),
+.card:nth-child(2),
+.card:nth-child(3) {
+    top: 276px;
+    left: 707px;
+}
+
+.card:nth-child(4),
+.card:nth-child(5),
+.card:nth-child(6) {
+    top: 545px;
+    left: 707px;
+}
+
+/* Styles for the gray circle background */
+.circle-background {
+    position: absolute;
+    background-color: #ccc; /* Gray color for the circle */
+    border-radius: 50%; /* Create a circle shape */
+    width: 100px; /* Adjust the circle size as needed */
+    height: 100px; /* Adjust the circle size as needed */
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Place the circle behind the card content */
+}
+
+.card-image {
+    margin-top: 20px;
+    position: relative;
+    z-index: 1; /* Bring the image to the front */
+    align-items: center;
+}
+
+.card-container .button_one, .card-container .button_two{
+    width: 165px;
+    height: 50px;
+    top: 913px;
+    left: 254px;
+   margin-right: 10px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+    
+}
+
+.card-container .button_one{
+    background-color: #4265DF;
+    color: white;
+    border: none;
+ 
+    
+}
+
+.card-container .button_two{
+    background-color: none;
+    border: 2px solid #4265DF;
+    color: #4265DF;
+}
+
+
+/* Styles for the top text */
+.second_banner .top-text {
+    position: absolute;
+    top: 1794px;/* Adjust the top position as needed */
+    left: 42%;
+    transform: translateX(-20%);
+    color: white;
+    text-align: center;
+    font-family: JejuGothic;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* Styles for the bottom text */
+.second_banner .bottom-text {
+    position: absolute;
+    bottom: -1518px;
+  left: 55%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    font-family: Imprima;
+font-size: 30px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.second_banner .button {
+    position: absolute;
+    bottom: -1580px;
+  left: 74%;
+    transform: translateX(-50%);
+    background-color: #4265DF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.input_one{
+    position: absolute;
+    bottom: -1597px;
+  left: 29%;
+    background-color: white;
+    color: #766D6D;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    width: 303px;
+height: 50px;
+
+font-family: Imprima;
+font-size: 15px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+
+
+}
+
+.input_two{
+    position: absolute;
+    bottom: -1597px;
+  left: 59%;
+    background-color: white;
+    color: #766D6D;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    width: 303px;
+height: 50px;
+
+font-family: Imprima;
+font-size: 15px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+
+
+}
