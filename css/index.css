@@ -397,3 +397,93 @@
     margin-right: 10px;
 }
 
+
+
+
+.container_three {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.above-image {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.subscribe-text {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px; /* Add spacing between the text and input elements */
+}
+
+.input-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex; /* Use flex to create three columns */
+    justify-content: space-between; /* Distribute columns evenly */
+}
+
+.footer-column {
+    flex: 1; /* Allow columns to take equal width */
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: left; /* Align text within each column */
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.5;
+}
