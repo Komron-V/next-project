@@ -389,7 +389,7 @@
 
 .container_two .title {
     margin-bottom: 10px;
-    width: 100%;
+    width: 80%;
     font-family: 'JejuGothic',sans-serif;
     font-size: 50px;
     font-weight: 400;
@@ -474,13 +474,6 @@
 
 
 .container_three {
-
-    padding: 20px;
-    text-align: center;
-    position: relative;
-}
-
-.container_three {
     position: relative;
     background-color: #0B1125; /* Set your desired blue background color */
     overflow: hidden;
@@ -491,7 +484,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 50%;
     pointer-events: none; /* Make sure the dots image doesn't interfere with the content */
     z-index: 1;
@@ -571,27 +564,67 @@
 
 
 .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    display: flex; /* Use flex to create three columns */
+    background-color: #182143;
+    color: white;
+    padding: 20px;
+}
+
+.footer-row {
+    display: flex; /* Create a flex container to maintain the three-column layout */
     justify-content: space-between; /* Distribute columns evenly */
 }
 
 .footer-column {
-    flex: 1; /* Allow columns to take equal width */
-    padding: 0 20px;
-    box-sizing: border-box;
-    text-align: left; /* Align text within each column */
+    flex: 1; /* Allow each column to grow equally */
+    text-align: center;
+    margin: 0 10px; /* Add some spacing between columns */
+}
+
+.footer img {
+    max-width: 100%;
+    height: auto;
 }
 
 .footer h3 {
     font-size: 18px;
+}
+
+.footer ul {
+    list-style-type: none; /* Remove bullets (dots) from list items */
+    padding: 0;
+}
+
+.footer ul li {
     margin-bottom: 10px;
 }
 
-.footer p {
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+}
+
+.contact-list img {
+    margin-right: 10px;
+    max-width: 20px;
+    height: auto;
+}
+
+/* Adjust the styling for the text below the logo */
+.footer-column p {
     font-size: 14px;
-    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.footer-rest .line{
+    margin-left: 155px;
+    margin-top: 40px;
+    width: 80%;
+}
+.footer-rest .social-media{
+    margin-left: 600px;
 }
