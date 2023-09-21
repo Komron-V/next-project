@@ -11,7 +11,7 @@
 }
 
 .navbar {
-    background-color: #333;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -34,15 +34,11 @@
 }
 
 .nav-item a {
-    color: white;
+    color: #000;
     text-decoration: none;
-    font-family: Imprima;
+    font-family: 'Imprima', sans-serif;
     font-size: 16px;
     font-weight: 400;
-}
-
-.nav-item a:hover {
-    color: #ddd;
 }
 
 .home {
@@ -72,35 +68,32 @@
     transform: translateX(-20%);
     color: white;
     text-align: center;
-    font-family: JejuGothic;
+    font-family: 'JejuGothic', sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 54px;
-    letter-spacing: 0em;
-    text-align: left;
+    letter-spacing: 0;
 }
 
 
 .container .bottom-text {
     position: absolute;
-    bottom: 432px;
+    bottom: 422px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
     text-align: center;
-    font-family: Imprima;
+    font-family: 'Imprima', sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 35px;
-    letter-spacing: 0em;
-    text-align: center;
+    letter-spacing: 0;
 }
 
 
 .container .button {
     position: absolute;
-    bottom: 380px;
-    left: 50%;
+    bottom: 350px;
     transform: translateX(-50%);
     background-color: #4265DF;
     color: white;
@@ -108,6 +101,12 @@
     text-align: center;
     border: none;
     cursor: pointer;
+    font-family: 'Imprima', sans-serif;
+    width: 165px;
+    height: 50px;
+    left: 50%;
+    font-size: 15px;
+
 }
 
 
@@ -118,11 +117,27 @@
 }
 
 .title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    padding-top: 100px;
+    margin-bottom: 5px;
+    font-family: 'JejuGothic', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #221717;
 }
 
+.title_two{
+    font-family: 'Imprima', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #766D6D;
+    margin-bottom: 100px;
+}
 
 .cards-section {
     display: flex;
@@ -132,19 +147,40 @@
 
 
 .card {
-    width: 387px;
+    width: 360px;
     height: 259px;
-    margin: 10px;
+    margin: 10px 20px 30px 50px;
     text-align: center;
     background-color: white;
 }
 
-
-.card-text p {
-    margin: 0;
-    padding: 10px;
+.card-title {
+    font-family: 'JejuGothic', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0;
     text-align: center;
+    color: #221717;
 }
+
+.card-description{
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #766D6D;
+    width: 248px;
+    margin-left: 72px;
+}
+
+/*.card-text p {*/
+/*    margin: 0;*/
+/*    padding: 10px;*/
+/*    text-align: center;*/
+/*}*/
 
 
 .card:nth-child(1),
@@ -164,7 +200,7 @@
 
 .circle-background {
     position: absolute;
-    background-color: #ccc;
+    background-color: #D9D9D9;
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -207,17 +243,16 @@
 /* Styles for the top text */
 .second_banner .top-text {
     position: absolute;
-    top: 1794px;
-    left: 42%;
+    top: 2050px;
+    left: 40%;
     transform: translateX(-20%);
     color: white;
     text-align: center;
-    font-family: JejuGothic;
+    font-family: 'JejuGothic', sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 54px;
-    letter-spacing: 0em;
-    text-align: left;
+    letter-spacing: 0;
 }
 
 .second_banner {
@@ -232,26 +267,62 @@
     margin: 0 auto;
 }
 
-/* Styles for the bottom text */
 .second_banner .bottom-text {
     position: absolute;
-    bottom: -1218px;
+    bottom: -1420px;
     left: 55%;
     transform: translateX(-50%);
     color: white;
     text-align: center;
-    font-family: Imprima;
+    font-family: 'Imprima', sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 35px;
-    letter-spacing: 0em;
-    text-align: center;
+    letter-spacing: 0;
+}
+
+.input_one {
+    position: absolute;
+    bottom: -1497px;
+    left: 25%;
+    background-color: white;
+    color: #766D6D;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    width: 260px;
+    height: 50px;
+    font-family: 'Imprima',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+    padding-left: 40px;
+}
+
+.input_two {
+    position: absolute;
+    bottom: -1497px;
+    left: 47%;
+    background-color: white;
+    color: #766D6D;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    width: 260px;
+    height: 50px;
+    font-family: 'Imprima',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+    padding-left: 40px;
 }
 
 .second_banner .button {
     position: absolute;
-    bottom: -1280px;
-    left: 74%;
+    bottom: -1495px;
+    left: 73%;
     transform: translateX(-50%);
     background-color: #4265DF;
     color: white;
@@ -259,54 +330,15 @@
     text-align: center;
     border: none;
     cursor: pointer;
-}
-
-.input_one {
-    position: absolute;
-    bottom: -1297px;
-    left: 29%;
-    background-color: white;
-    color: #766D6D;
-    text-align: left;
-    border: none;
-    cursor: pointer;
-    width: 303px;
     height: 50px;
+    width: 131px;
 
-    font-family: Imprima;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: center;
 }
-
-.input_two {
-    position: absolute;
-    bottom: -1297px;
-    left: 59%;
-    background-color: white;
-    color: #766D6D;
-    text-align: left;
-    border: none;
-    cursor: pointer;
-    width: 303px;
-    height: 50px;
-    font-family: Imprima;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-
 
 
 
 
 .container_two {
-
     padding: 20px;
     background-color: #ccc;
 }
@@ -318,26 +350,67 @@
 
 .blue-card {
     background-color: #4265DF;
-    padding: 20px;
-    width: 387px;
-    height: 390px;
-    margin: 20px;
+    padding: 5px 20px;
+    width: 289px;
+    height: 360px;
+    margin: 20px 40px;
 }
 
 .row .card-image img {
     max-width: 100%;
 }
 
-.row .card-text {
-    color: white;
+.blue-card .card-text {
+    color: #ffffff;
     margin-top: 10px;
 }
 
-.row .title {
-    font-size: 24px;
-    font-weight: bold;
+.blue-card .card-text .title-card {
+    font-family: 'JejuGothic',sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.blue-card .card-text .desc {
+    font-family: 'Imprima',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: -15px;
+
+}
+
+
+
+.container_two .title {
     margin-bottom: 10px;
     width: 100%;
+    font-family: 'JejuGothic',sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #221717;
+    margin-left: 160px;
+}
+
+.container_two .title_two {
+    width: 100%;
+    font-family: 'Imprima',sans-serif;
+    color: #766D6D;
+    margin-left: -340px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 .circles {
@@ -351,7 +424,7 @@
     height: 20px;
     background-color: gray;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 10px 100px 10px;
 }
 
 .circle.active {
@@ -401,57 +474,92 @@
 
 
 .container_three {
-    background-color: blue;
+
     padding: 20px;
     text-align: center;
     position: relative;
 }
 
-.above-image {
-    max-width: 100%;
+.container_three {
+    position: relative;
+    background-color: #0B1125; /* Set your desired blue background color */
+    overflow: hidden;
+    height: 400px;
+}
+
+.dot-image {
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    width: 100%;
+    height: 50%;
+    pointer-events: none; /* Make sure the dots image doesn't interfere with the content */
     z-index: 1;
 }
 
+
 .subscribe-text {
-    font-size: 18px;
     color: white;
-    margin-bottom: 10px; /* Add spacing between the text and input elements */
+    margin-bottom: 10px;
+    font-family: 'JejuGothic',sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    bottom: 259px;
+    left: 230px;
 }
 
 .input-row {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 259px;
+    left: 230px;
 }
 
 .custom-input {
-    padding: 10px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 200px;
+    position: absolute;
+    left: 107%;
+    background-color: white;
+    color: #766D6D;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    width: 260px;
+    height: 50px;
+    font-family: 'Imprima',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+    padding-left: 40px;
+    margin-left: 260px;
+    margin-top: 80px;
 }
 
 .custom-button {
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #4CAF50;
     border: none;
     color: white;
-    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    position: absolute;
+    left: 73%;
+    transform: translateX(-50%);
+    background-color: #4265DF;
+    text-align: center;
+    height: 50px;
+    width: 131px;
+    padding-left: 5px;
+    margin-left: 658px;
+    margin-top: 80px;
 }
 
-.custom-button:hover {
-    background-color: #45a049;
-}
+
 
 
 
