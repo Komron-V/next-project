@@ -46,7 +46,6 @@
 }
 
 
-
 .container {
     position: relative;
     max-width: 100%;
@@ -110,7 +109,6 @@
 }
 
 
-
 .card-container {
     text-align: center;
     background-color: #D9D9D9;
@@ -128,7 +126,7 @@
     color: #221717;
 }
 
-.title_two{
+.title_two {
     font-family: 'Imprima', sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -164,7 +162,7 @@
     color: #221717;
 }
 
-.card-description{
+.card-description {
     font-family: 'Imprima', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -292,7 +290,7 @@
     cursor: pointer;
     width: 260px;
     height: 50px;
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 17px;
@@ -311,7 +309,7 @@
     cursor: pointer;
     width: 260px;
     height: 50px;
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 17px;
@@ -334,8 +332,6 @@
     width: 131px;
 
 }
-
-
 
 
 .container_two {
@@ -366,7 +362,7 @@
 }
 
 .blue-card .card-text .title-card {
-    font-family: 'JejuGothic',sans-serif;
+    font-family: 'JejuGothic', sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 27px;
@@ -375,7 +371,7 @@
 }
 
 .blue-card .card-text .desc {
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -386,11 +382,10 @@
 }
 
 
-
 .container_two .title {
     margin-bottom: 10px;
     width: 80%;
-    font-family: 'JejuGothic',sans-serif;
+    font-family: 'JejuGothic', sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 54px;
@@ -402,7 +397,7 @@
 
 .container_two .title_two {
     width: 100%;
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     color: #766D6D;
     margin-left: -340px;
     font-size: 30px;
@@ -428,10 +423,8 @@
 }
 
 .circle.active {
-    background-color:  #4265DF;
+    background-color: #4265DF;
 }
-
-
 
 
 .text-image {
@@ -443,7 +436,7 @@
     flex: 1;
     padding: 20px;
     width: 100%;
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0;
@@ -459,9 +452,9 @@
     margin-top: -15px;
 }
 
-.only_title{
+.only_title {
     width: 100%;
-    font-family: 'JejuGothic',sans-serif;
+    font-family: 'JejuGothic', sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 54px;
@@ -471,9 +464,9 @@
     margin-left: 50px;
 }
 
-.only_desc{
+.only_desc {
     width: 100%;
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     color: #766D6D;
     font-size: 30px;
     font-weight: 400;
@@ -483,9 +476,9 @@
     margin-left: -70px;
 }
 
-.only_desc_next{
+.only_desc_next {
     width: 71%;
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     color: #766D6D;
     font-size: 30px;
     font-weight: 400;
@@ -506,9 +499,10 @@
     flex: 1;
     margin-left: 46px;
 }
-.list-item p{
+
+.list-item p {
     width: 70%;
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     color: #766D6D;
     font-size: 30px;
     font-weight: 400;
@@ -529,8 +523,8 @@
     margin-right: 10px;
 }
 
-.list-header p{
-    font-family: 'Imprima',sans-serif;
+.list-header p {
+    font-family: 'Imprima', sans-serif;
     color: #221717;
     font-size: 32px;
     font-weight: 400;
@@ -540,8 +534,6 @@
     text-align: left;
     width: 100%;
 }
-
-
 
 
 .container_three {
@@ -565,7 +557,7 @@
 .subscribe-text {
     color: white;
     margin-bottom: 10px;
-    font-family: 'JejuGothic',sans-serif;
+    font-family: 'JejuGothic', sans-serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 54px;
@@ -595,7 +587,7 @@
     cursor: pointer;
     width: 260px;
     height: 50px;
-    font-family: 'Imprima',sans-serif;
+    font-family: 'Imprima', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 17px;
