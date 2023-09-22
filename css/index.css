@@ -442,12 +442,58 @@
 .text_only {
     flex: 1;
     padding: 20px;
+    width: 100%;
+    font-family: 'Imprima',sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 65px;
 }
 
 .image_only {
     flex: 1;
     padding: 20px;
     text-align: center;
+    margin-top: -15px;
+}
+
+.only_title{
+    width: 100%;
+    font-family: 'JejuGothic',sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #221717;
+    margin-left: 50px;
+}
+
+.only_desc{
+    width: 100%;
+    font-family: 'Imprima',sans-serif;
+    color: #766D6D;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0;
+    margin-top: -50px;
+    margin-left: -70px;
+}
+
+.only_desc_next{
+    width: 71%;
+    font-family: 'Imprima',sans-serif;
+    color: #766D6D;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    text-align: left;
 }
 
 .list {
@@ -458,6 +504,18 @@
 
 .list-item {
     flex: 1;
+    margin-left: 46px;
+}
+.list-item p{
+    width: 70%;
+    font-family: 'Imprima',sans-serif;
+    color: #766D6D;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 40px;
+    line-height: 35px;
+    letter-spacing: 0;
+    text-align: left;
 }
 
 .list-header {
@@ -467,7 +525,20 @@
 }
 
 .list-header img {
+    width: 5%;
     margin-right: 10px;
+}
+
+.list-header p{
+    font-family: 'Imprima',sans-serif;
+    color: #221717;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 2px;
+    line-height: 37px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 100%;
 }
 
 
@@ -475,7 +546,7 @@
 
 .container_three {
     position: relative;
-    background-color: #0B1125; /* Set your desired blue background color */
+    background-color: #0B1125;
     overflow: hidden;
     height: 400px;
 }
@@ -486,7 +557,7 @@
     left: 0;
     width: 80%;
     height: 50%;
-    pointer-events: none; /* Make sure the dots image doesn't interfere with the content */
+    pointer-events: none;
     z-index: 1;
 }
 
@@ -552,17 +623,6 @@
     margin-top: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .footer {
     background-color: #182143;
     color: white;
@@ -570,19 +630,25 @@
 }
 
 .footer-row {
-    display: flex; /* Create a flex container to maintain the three-column layout */
-    justify-content: space-between; /* Distribute columns evenly */
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-column {
-    flex: 1; /* Allow each column to grow equally */
-    text-align: center;
-    margin: 0 10px; /* Add some spacing between columns */
+    flex: 1;
+    text-align: left;
+    margin: 0 10px;
+}
+
+.footer-column:nth-child(2) {
+    text-align: left;
+    margin-left: 180px;
 }
 
 .footer img {
     max-width: 100%;
     height: auto;
+    margin-left: 140px;
 }
 
 .footer h3 {
@@ -590,7 +656,7 @@
 }
 
 .footer ul {
-    list-style-type: none; /* Remove bullets (dots) from list items */
+    list-style-type: none;
     padding: 0;
 }
 
@@ -606,6 +672,7 @@
 .contact-list li {
     display: flex;
     align-items: center;
+    margin-left: -141px;
 }
 
 .contact-list img {
@@ -614,17 +681,18 @@
     height: auto;
 }
 
-/* Adjust the styling for the text below the logo */
 .footer-column p {
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 140px;
+    width: 334px;
 }
 
-.footer-rest .line{
+.footer-rest .line {
     margin-left: 155px;
     margin-top: 40px;
     width: 80%;
 }
-.footer-rest .social-media{
+
+.footer-rest .social-media {
     margin-left: 600px;
 }
